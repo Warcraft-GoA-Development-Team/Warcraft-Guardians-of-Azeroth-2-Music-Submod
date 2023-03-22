@@ -1,8 +1,6 @@
-name="Warcraft-Guardians-of-Azeroth-2-Music-Submod"
-version="1".0"
-picture="thumbnail.png"
+version="1.0"
 tags={
-	"Sound""
+	"Sound"
 }
+name="Warcraft: GOA Music Submod"
 supported_version="1.5.0.2"
-path="mod/Warcraft-Guardians-of-Azeroth-2-Music-Submod"
