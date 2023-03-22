@@ -2,5 +2,5 @@ version="1.0"
 tags={
 	"Sound"
 }
-name="Warcraft: GOA Music Submod"
+name="Warcraft Guardians of Azeroth 2 Music Submod"
 supported_version="1.5.0.2"
