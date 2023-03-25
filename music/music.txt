@@ -77,7 +77,35 @@ mood_kaldorei_cultural_02 = {
 		}
 	}
 }
-mood_stormwind_cultural_01 = {
+mood_kaldorei_cultural_03 = {
+	music = "file:/music/wc_music/WC3_Arrival_At_Kalimdor.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = { 
+		OR = {
+			culture = { has_cultural_pillar = heritage_darnassian }
+			has_religion = religion:druidism_group
+		}
+	}
+}
+mood_kaldorei_cultural_04 = {
+	music = "file:/music/wc_music/WC3_Return_of_the_Ancients.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = { 
+		OR = {
+			culture = { has_cultural_pillar = heritage_darnassian }
+			has_religion = religion:druidism_group
+		}
+	}
+}
+mood_human_cultural_01 = {
 	music = "file:/music/wc_music/08_Stormwind.ogg"
 	pause_factor = 15
 	mood = yes
@@ -85,7 +113,35 @@ mood_stormwind_cultural_01 = {
 	
 	is_prioritized_mood = yes
 	is_valid = { 
-		has_alliance_culture_trigger = yes
+		culture = { has_alliance_culture_trigger = yes }
+	}
+}
+mood_human_cultural_02 = {
+	music = "file:/music/wc_music/WC3_Blackrock_and_Roll.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = { 
+		culture = { 
+			has_alliance_culture_trigger = yes
+			NOT = { has_cultural_pillar = heritage_darnassian }
+		}
+	}
+}
+mood_human_cultural_03 = {
+	music = "file:/music/wc_music/WC3_Dark_Covenant.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = { 
+		culture = { 
+			has_alliance_culture_trigger = yes
+			NOT = { has_cultural_pillar = heritage_darnassian }
+		}
 	}
 }
 mood_orc_cultural_01 = {
@@ -96,11 +152,57 @@ mood_orc_cultural_01 = {
 	
 	is_prioritized_mood = yes
 	is_valid = {
-		has_horde_culture_trigger = yes
+		culture = { has_horde_culture_trigger = yes }
 	}
 }
-mood_forsaken_cultural_01 = {
+mood_orc_cultural_02 = {
+	music = "file:/music/wc_music/WC3_Doomhammer_s_Legacy.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = { has_horde_culture_trigger = yes }
+		NOT = { religion = { is_in_family = rf_death } }
+	}
+}
+mood_orc_cultural_03 = {
+	music = "file:/music/wc_music/WC3_Temporary_Alliances.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = { has_horde_culture_trigger = yes }
+		NOT = { religion = { is_in_family = rf_death } }
+	}
+}
+mood_undead_cultural_01 = {
 	music = "file:/music/wc_music/10_The_Undercity.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = { 
+		religion = { is_in_family = rf_death }
+	}
+}
+mood_undead_cultural_02 = {
+	music = "file:/music/wc_music/WC3_Arcane_Echoes.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = { 
+		religion = { is_in_family = rf_death }
+	}
+}
+mood_undead_cultural_03 = {
+	music = "file:/music/wc_music/WC3_Blight.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
@@ -129,10 +231,12 @@ mood_dwarf_cultural_01 = {
 	
 	is_prioritized_mood = yes
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_dwarven }
-			culture = { has_cultural_pillar = heritage_gnomish }
-			culture = { has_cultural_pillar = heritage_arathi }
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_dwarven
+				has_cultural_pillar = heritage_gnomish
+				has_cultural_pillar = heritage_arathi
+			}
 		}
 	}
 }
