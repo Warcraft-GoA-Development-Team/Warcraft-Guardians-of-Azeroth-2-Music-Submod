@@ -1,17 +1,18 @@
-﻿#### MOOD TRACKS
-mx_mood_call_01 = {
+﻿#### MOOD TRACKS ###
+### Thematic Tracks ###
+mood_wow_ost_01 = {
 	music = "file:/music/wc_music/01_Legends_of_Azeroth.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_02 = {
+mood_wow_ost_02 = {
 	music = "file:/music/wc_music/02_The_Shaping_of_the_World.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_03  = {
+mood_wow_ost_03  = {
 	music = "file:/music/wc_music/03_Legacy.ogg"
 	pause_factor = 15
 	mood = yes
@@ -19,7 +20,26 @@ mx_mood_call_03  = {
 	
 	is_prioritized_mood = yes
 }
-mx_mood_call_04 = {
+mood_wow_ost_04 = {
+	music = "file:/music/wc_music/05_Echoes_of_the_Past.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+mood_wow_ost_05 = {
+	music = "file:/music/wc_music/06_A_Call_to_Arms.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+mood_wow_ost_06 = {
+	music = "file:/music/wc_music/07_Seasons_of_War.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+### Cultural Tracks ###
+mood_kaldorei_cultural_01 = {
 	music = "file:/music/wc_music/04_Song_of_Elune.ogg"
 	pause_factor = 15
 	mood = yes
@@ -33,69 +53,7 @@ mx_mood_call_04 = {
 		}
 	}
 }
-mx_mood_call_05 = {
-	music = "file:/music/wc_music/05_Echoes_of_the_Past.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-}
-mx_mood_call_06 = {
-	music = "file:/music/wc_music/06_A_Call_to_Arms.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-}
-mx_mood_call_07 = {
-	music = "file:/music/wc_music/07_Seasons_of_War.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-}
-mx_mood_call_chants_08 = {
-	music = "file:/music/wc_music/08_Stormwind.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-	
-	is_prioritized_mood = yes
-	is_valid = { 
-		has_alliance_culture_trigger = yes
-	}
-}
-mx_mood_call_10_dusk = {
-	music = "file:/music/wc_music/09_Orgrimmar.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-	
-	is_prioritized_mood = yes
-	is_valid = {
-		has_horde_culture_trigger = yes
-	}
-}
-mx_mood_call_11_dawn_part1 = {
-	music = "file:/music/wc_music/10_The_Undercity.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-	
-	is_prioritized_mood = yes
-	is_valid = { 
-		religion = { is_in_family = rf_death }
-	}
-}
-mx_mood_call_12_dawn_part2 = {
-	music = "file:/music/wc_music/11_Thunder_Bluff.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-	
-	is_prioritized_mood = yes
-	is_valid = {
-		culture = { has_bovine_heritage_trigger = yes }
-	}
-}
-mx_mood_call_13_dawn_part3 = {
+mood_kaldorei_cultural_02 = {
 	music = "file:/music/wc_music/12_Darnassus.ogg"
 	pause_factor = 15
 	mood = yes
@@ -109,7 +67,51 @@ mx_mood_call_13_dawn_part3 = {
 		}
 	}
 }
-mx_mood_call_14_dawn_part4 = {
+mood_stormwind_cultural_01 = {
+	music = "file:/music/wc_music/08_Stormwind.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = { 
+		has_alliance_culture_trigger = yes
+	}
+}
+mood_orc_cultural_01 = {
+	music = "file:/music/wc_music/09_Orgrimmar.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		has_horde_culture_trigger = yes
+	}
+}
+mood_forsaken_cultural_01 = {
+	music = "file:/music/wc_music/10_The_Undercity.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = { 
+		religion = { is_in_family = rf_death }
+	}
+}
+mood_tauren_cultural_01 = {
+	music = "file:/music/wc_music/11_Thunder_Bluff.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = { has_bovine_heritage_trigger = yes }
+	}
+}
+mood_dwarf_cultural_01 = {
 	music = "file:/music/wc_music/13_Ironforge.ogg"
 	pause_factor = 15
 	mood = yes
@@ -117,100 +119,101 @@ mx_mood_call_14_dawn_part4 = {
 	
 	is_prioritized_mood = yes
 	is_valid = {
-		culture = { heritage_dwarven = yes }
+		culture = { has_cultural_pillar = heritage_dwarven }
 	}
 }
-mx_mood_call_15_dawn_part5 = {
+### Zone Ambiance Tracks ###
+mood_elwynn_01 = {
 	music = "file:/music/wc_music/14_Elwynn Forest.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_16_duskingsky = {
+mood_duskwood_01 = {
 	music = "file:/music/wc_music/15_Duskwood.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_17_murkiness = {
+mood_dun_morogh_01 = {
 	music = "file:/music/wc_music/16_Dun_Morogh.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_balik_part1 = {
+mood_burning_steppes_01 = {
 	music = "file:/music/wc_music/17_Burning_Steppes.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_balik_part2 = {
+mood_shimmering_flats_01 = {
 	music = "file:/music/wc_music/18_Shimmering_Flats.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_18_mysterious_part1 = {
+mood_felwood_01 = {
 	music = "file:/music/wc_music/19_Felwood.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_19_mysterious_part2 = {
+mood_stranglethorn_01 = {
 	music = "file:/music/wc_music/20_Stranglethorn_Vale.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call__21_mysterious_part4 = {
+mood_tanaris_01 = {
 	music = "file:/music/wc_music/21_Tanaris.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_22_veni_part2 = {
+mood_teldrassil_01 = {
 	music = "file:/music/wc_music/22_Teldrassil.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_23_veni_part3 = {
+mood_tavern_01 = {
 	music = "file:/music/wc_music/23_Tavern.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_resurrection_part1  = {
+mood_moonfall_01  = {
 	music = "file:/music/wc_music/24_Moonfall.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_resurrection_part2 = {
+mood_ruins_01 = {
 	music = "file:/music/wc_music/25_Ruins.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_resurrection_part3 = {
+mood_temple_01 = {
 	music = "file:/music/wc_music/26_Temple.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call__20_mysterious_part3 = {
+mood_lurking_01 = {
 	music = "file:/music/wc_music/27_Lurking.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_mena_01 = {
+mood_sacred_01 = {
 	music = "file:/music/wc_music/28_Sacred.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
 }
-mx_mood_call_mena_04 = {
+mood_war_01 = {
 	music = "file:/music/wc_music/30_War.ogg"
 	pause_factor = 15
 	mood = yes
