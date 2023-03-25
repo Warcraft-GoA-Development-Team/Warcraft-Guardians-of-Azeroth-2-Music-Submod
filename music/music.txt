@@ -122,6 +122,96 @@ mood_dwarf_cultural_01 = {
 		culture = { has_cultural_pillar = heritage_dwarven }
 	}
 }
+### War Tracks ###
+alliance_war_01 = {
+	music = "file:/music/wc_music/WC2_Human_01.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_valid = {
+		is_at_war = yes
+		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
+	}
+}
+alliance_war_02 = {
+	music = "file:/music/wc_music/WC2_Human_03.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_valid = {
+		is_at_war = yes
+		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
+	}
+}
+alliance_war_03 = {
+	music = "file:/music/wc_music/WC2_Human_04.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_valid = {
+		is_at_war = yes
+		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
+	}
+}
+alliance_war_04 = {
+	music = "file:/music/wc_music/WC2_Human_war_room.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_valid = {
+		is_at_war = yes
+		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
+	}
+}
+horde_war_01 = {
+	music = "file:/music/wc_music/WC2_Orc_01.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_valid = {
+		is_at_war = yes
+		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
+	}
+}
+horde_war_02 = {
+	music = "file:/music/wc_music/WC2_Orc_02.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_valid = {
+		is_at_war = yes
+		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
+	}
+}
+horde_war_03 = {
+	music = "file:/music/wc_music/WC2_Orc_03.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_valid = {
+		is_at_war = yes
+		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
+	}
+}
+horde_war_04 = {
+	music = "file:/music/wc_music/WC2_Orc_war_room.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		is_at_war = yes
+		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
+	}
+}
 ### Zone Ambiance Tracks ###
 mood_elwynn_01 = {
 	music = "file:/music/wc_music/14_Elwynn Forest.ogg"
