@@ -5,12 +5,16 @@ mood_wow_ost_01 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_wow_ost_02 = {
 	music = "file:/music/wc_music/02_The_Shaping_of_the_World.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_wow_ost_03  = {
 	music = "file:/music/wc_music/03_Legacy.ogg"
@@ -25,18 +29,24 @@ mood_wow_ost_04 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_wow_ost_05 = {
 	music = "file:/music/wc_music/06_A_Call_to_Arms.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_wow_ost_06 = {
 	music = "file:/music/wc_music/07_Seasons_of_War.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 ### Cultural Tracks ###
 mood_kaldorei_cultural_01 = {
@@ -119,7 +129,11 @@ mood_dwarf_cultural_01 = {
 	
 	is_prioritized_mood = yes
 	is_valid = {
-		culture = { has_cultural_pillar = heritage_dwarven }
+		OR = {
+			culture = { has_cultural_pillar = heritage_dwarven }
+			culture = { has_cultural_pillar = heritage_gnomish }
+			culture = { has_cultural_pillar = heritage_arathi }
+		}
 	}
 }
 ### War Tracks ###
@@ -129,6 +143,7 @@ alliance_war_01 = {
 	mood = yes
 	can_be_interrupted = yes
 	
+	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
 		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
@@ -140,6 +155,7 @@ alliance_war_02 = {
 	mood = yes
 	can_be_interrupted = yes
 	
+	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
 		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
@@ -151,6 +167,7 @@ alliance_war_03 = {
 	mood = yes
 	can_be_interrupted = yes
 	
+	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
 		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
@@ -162,6 +179,7 @@ alliance_war_04 = {
 	mood = yes
 	can_be_interrupted = yes
 	
+	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
 		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
@@ -173,6 +191,7 @@ horde_war_01 = {
 	mood = yes
 	can_be_interrupted = yes
 	
+	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
 		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
@@ -184,6 +203,7 @@ horde_war_02 = {
 	mood = yes
 	can_be_interrupted = yes
 	
+	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
 		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
@@ -195,6 +215,7 @@ horde_war_03 = {
 	mood = yes
 	can_be_interrupted = yes
 	
+	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
 		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
@@ -218,94 +239,126 @@ mood_elwynn_01 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_duskwood_01 = {
 	music = "file:/music/wc_music/15_Duskwood.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_dun_morogh_01 = {
 	music = "file:/music/wc_music/16_Dun_Morogh.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_burning_steppes_01 = {
 	music = "file:/music/wc_music/17_Burning_Steppes.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_shimmering_flats_01 = {
 	music = "file:/music/wc_music/18_Shimmering_Flats.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_felwood_01 = {
 	music = "file:/music/wc_music/19_Felwood.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_stranglethorn_01 = {
 	music = "file:/music/wc_music/20_Stranglethorn_Vale.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_tanaris_01 = {
 	music = "file:/music/wc_music/21_Tanaris.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_teldrassil_01 = {
 	music = "file:/music/wc_music/22_Teldrassil.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_tavern_01 = {
 	music = "file:/music/wc_music/23_Tavern.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_moonfall_01  = {
 	music = "file:/music/wc_music/24_Moonfall.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_ruins_01 = {
 	music = "file:/music/wc_music/25_Ruins.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_temple_01 = {
 	music = "file:/music/wc_music/26_Temple.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_lurking_01 = {
 	music = "file:/music/wc_music/27_Lurking.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_sacred_01 = {
 	music = "file:/music/wc_music/28_Sacred.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
 mood_war_01 = {
 	music = "file:/music/wc_music/30_War.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
 }
