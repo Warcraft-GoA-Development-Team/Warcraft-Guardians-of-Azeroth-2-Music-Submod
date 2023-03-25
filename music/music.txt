@@ -4,21 +4,18 @@ mx_mood_call_01 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_02 = {
 	music = "file:/music/wc_music/02_The_Shaping_of_the_World.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_03  = {
 	music = "file:/music/wc_music/03_Legacy.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 	
 	is_prioritized_mood = yes
 }
@@ -27,7 +24,6 @@ mx_mood_call_04 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 	
 	is_prioritized_mood = yes
 	is_valid = { 
@@ -42,28 +38,24 @@ mx_mood_call_05 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_06 = {
 	music = "file:/music/wc_music/06_A_Call_to_Arms.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_07 = {
 	music = "file:/music/wc_music/07_Seasons_of_War.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_chants_08 = {
 	music = "file:/music/wc_music/08_Stormwind.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 	
 	is_prioritized_mood = yes
 	is_valid = { 
@@ -75,7 +67,6 @@ mx_mood_call_10_dusk = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 	
 	is_prioritized_mood = yes
 	is_valid = {
@@ -87,7 +78,6 @@ mx_mood_call_11_dawn_part1 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 	
 	is_prioritized_mood = yes
 	is_valid = { 
@@ -99,7 +89,6 @@ mx_mood_call_12_dawn_part2 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 	
 	is_prioritized_mood = yes
 	is_valid = {
@@ -111,7 +100,6 @@ mx_mood_call_13_dawn_part3 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 	
 	is_prioritized_mood = yes
 	is_valid = { 
@@ -126,7 +114,6 @@ mx_mood_call_14_dawn_part4 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 	
 	is_prioritized_mood = yes
 	is_valid = {
@@ -138,110 +125,94 @@ mx_mood_call_15_dawn_part5 = {
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_16_duskingsky = {
 	music = "file:/music/wc_music/15_Duskwood.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_17_murkiness = {
 	music = "file:/music/wc_music/16_Dun_Morogh.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_balik_part1 = {
 	music = "file:/music/wc_music/17_Burning_Steppes.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_balik_part2 = {
 	music = "file:/music/wc_music/18_Shimmering_Flats.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_18_mysterious_part1 = {
 	music = "file:/music/wc_music/19_Felwood.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_19_mysterious_part2 = {
 	music = "file:/music/wc_music/20_Stranglethorn_Vale.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call__21_mysterious_part4 = {
 	music = "file:/music/wc_music/21_Tanaris.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_22_veni_part2 = {
 	music = "file:/music/wc_music/22_Teldrassil.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_23_veni_part3 = {
 	music = "file:/music/wc_music/23_Tavern.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_resurrection_part1  = {
 	music = "file:/music/wc_music/24_Moonfall.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_resurrection_part2 = {
 	music = "file:/music/wc_music/25_Ruins.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_resurrection_part3 = {
 	music = "file:/music/wc_music/26_Temple.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call__20_mysterious_part3 = {
 	music = "file:/music/wc_music/27_Lurking.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_mena_01 = {
 	music = "file:/music/wc_music/28_Sacred.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
 mx_mood_call_mena_04 = {
 	music = "file:/music/wc_music/30_War.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
-	calls = 15
 }
