@@ -240,6 +240,166 @@ mood_dwarf_cultural_01 = {
 		}
 	}
 }
+mood_dwarf_cultural_02 = {
+	music = "file:/music/wc_music/Mosaic_Ironforge.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_dwarven
+				has_cultural_pillar = heritage_gnomish
+			}
+		}
+	}
+}
+mood_draenei_cultural_01 = {
+	music = "file:/music/wc_music/TBC_Azuremyst_Isle.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			is_culture_or_parent_culture_trigger = { CULTURE = culture:draenei }
+		}
+	}
+}
+mood_goblin_cultural_01 = {
+	music = "file:/music/wc_music/Cata_Castaways.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			has_goblin_heritage_trigger = yes
+		}
+	}
+}
+mood_troll_cultural_01 = {
+	music = "file:/music/wc_music/BFA_Zandalari_Lament.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			is_culture_or_parent_culture_trigger = { CULTURE = culture:zandalari }
+		}
+	}
+}
+mood_troll_cultural_02 = {
+	music = "file:/music/wc_music/BFA_Zuldazar_1.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			has_cultural_pillar = heritage_zulite
+		}
+	}
+}
+mood_troll_cultural_03 = {
+	music = "file:/music/wc_music/BFA_Loa_Bwonsamdi.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			has_cultural_pillar = heritage_zulite
+		}
+	}
+}
+mood_sindorei_cultural_01 = {
+	music = "file:/music/wc_music/TBC_The_City_of_Silvermoon.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			is_culture_or_parent_culture_trigger = { CULTURE = culture:high_elf }
+		}
+	}
+}
+mood_pandaren_cultural_01 = {
+	music = "file:/music/wc_music/MOP_The_Golden_Lotus.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			has_cultural_pillar = heritage_pandaren
+		}
+	}
+}
+mood_nightborne_cultural_01 = {
+	music = "file:/music/wc_music/Legion_The_Nightborne.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			has_cultural_pillar = heritage_highborne
+		}
+	}
+}
+mood_naga_cultural_01 = {
+	music = "file:/music/wc_music/BFA_Nazjatar_Rise.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		culture = {
+			has_cultural_pillar = heritage_azsharic
+		}
+	}
+}
+### Religion Tracks ###
+mood_illidari_faith_01 = {
+	music = "file:/music/wc_music/TBC_Illidan.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		faith = {
+			has_faith = faith:illidari
+		}
+	}
+}
+mood_sacred_01 = {
+	music = "file:/music/wc_music/28_Sacred.ogg"
+	pause_factor = 15
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+		is_valid = {
+		faith = {
+			has_religion = religion:light_group
+		}
+	}
+}
 ### War Tracks ###
 alliance_war_01 = {
 	music = "file:/music/wc_music/WC2_Human_01.ogg"
@@ -444,22 +604,6 @@ mood_temple_01 = {
 }
 mood_lurking_01 = {
 	music = "file:/music/wc_music/27_Lurking.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-	
-	is_prioritized_mood = yes
-}
-mood_sacred_01 = {
-	music = "file:/music/wc_music/28_Sacred.ogg"
-	pause_factor = 15
-	mood = yes
-	can_be_interrupted = yes
-	
-	is_prioritized_mood = yes
-}
-mood_war_01 = {
-	music = "file:/music/wc_music/30_War.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
