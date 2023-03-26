@@ -113,7 +113,7 @@ mood_human_cultural_01 = {
 	
 	is_prioritized_mood = yes
 	is_valid = { 
-		culture = { has_alliance_culture_trigger = yes }
+		has_alliance_culture_trigger = yes
 	}
 }
 mood_human_cultural_02 = {
@@ -124,10 +124,8 @@ mood_human_cultural_02 = {
 	
 	is_prioritized_mood = yes
 	is_valid = { 
-		culture = { 
-			has_alliance_culture_trigger = yes
-			NOT = { has_cultural_pillar = heritage_darnassian }
-		}
+		has_alliance_culture_trigger = yes
+		culture = { NOT = { has_cultural_pillar = heritage_darnassian } }
 	}
 }
 mood_human_cultural_03 = {
@@ -138,10 +136,8 @@ mood_human_cultural_03 = {
 	
 	is_prioritized_mood = yes
 	is_valid = { 
-		culture = { 
-			has_alliance_culture_trigger = yes
-			NOT = { has_cultural_pillar = heritage_darnassian }
-		}
+		has_alliance_culture_trigger = yes
+		culture = { NOT = { has_cultural_pillar = heritage_darnassian } }
 	}
 }
 mood_orc_cultural_01 = {
@@ -151,9 +147,7 @@ mood_orc_cultural_01 = {
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
-	is_valid = {
-		culture = { has_horde_culture_trigger = yes }
-	}
+	is_valid = { has_horde_culture_trigger = yes }
 }
 mood_orc_cultural_02 = {
 	music = "file:/music/wc_music/WC3_Doomhammer_s_Legacy.ogg"
@@ -163,7 +157,7 @@ mood_orc_cultural_02 = {
 	
 	is_prioritized_mood = yes
 	is_valid = {
-		culture = { has_horde_culture_trigger = yes }
+		has_horde_culture_trigger = yes
 		NOT = { religion = { is_in_family = rf_death } }
 	}
 }
@@ -175,7 +169,7 @@ mood_orc_cultural_03 = {
 	
 	is_prioritized_mood = yes
 	is_valid = {
-		culture = { has_horde_culture_trigger = yes }
+		has_horde_culture_trigger = yes
 		NOT = { religion = { is_in_family = rf_death } }
 	}
 }
@@ -382,9 +376,7 @@ mood_illidari_faith_01 = {
 	
 	is_prioritized_mood = yes
 	is_valid = {
-		faith = {
-			has_faith = faith:illidari
-		}
+		has_faith = faith:illidari
 	}
 }
 mood_sacred_01 = {
@@ -395,9 +387,7 @@ mood_sacred_01 = {
 	
 	is_prioritized_mood = yes
 		is_valid = {
-		faith = {
-			has_religion = religion:light_group
-		}
+		has_religion = religion:light_group
 	}
 }
 ### War Tracks ###
