@@ -2,5 +2,4 @@
 main_theme_track = {
 	music = "file:/music/wc_music/01_Legends_of_Azeroth.ogg"
 	can_be_interrupted = yes
-	volume = 0.05
 }
