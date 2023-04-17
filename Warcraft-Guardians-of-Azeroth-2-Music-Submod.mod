@@ -1,7 +1,8 @@
+name="Warcraft Guardians of Azeroth 2 Music Submod"
 version="1.0"
+picture="thumbnail.png"
 tags={
 	"Sound"
 }
-name="Warcraft Guardians of Azeroth 2 Music Submod"
-supported_version="1.5.0.2"
+supported_version="1.8.*"
 path="/mod/Warcraft-Guardians-of-Azeroth-2-Music-Submod"
