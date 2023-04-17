@@ -5,4 +5,4 @@ tags={
 	"Sound"
 }
 supported_version="1.8.*"
-path="/mod/Warcraft-Guardians-of-Azeroth-2-Music-Submod"
+path="mod/Warcraft-Guardians-of-Azeroth-2-Music-Submod"
