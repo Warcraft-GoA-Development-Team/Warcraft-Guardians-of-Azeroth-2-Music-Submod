@@ -487,6 +487,271 @@ horde_war_04 = {
 		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
 	}
 }
+### First War ###
+first_war_01 = {
+	music = "file:/music/wc_music/WC1_Orcs_n_Humans_Introduction.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		OR = {
+			culture = { has_cultural_pillar = heritage_arathi }
+			culture = { has_cultural_pillar = heritage_orcish }
+		}
+	}
+}
+first_war_02 = {
+	music = "file:/music/wc_music/WC1_Orcs_n_Humans_Mission_Briefing.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		OR = {
+			culture = { has_cultural_pillar = heritage_arathi }
+			culture = { has_cultural_pillar = heritage_orcish }
+		}
+	}
+}
+first_war_03 = {
+	music = "file:/music/wc_music/WC1_Orcs_n_Humans_Title.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		OR = {
+			culture = { has_cultural_pillar = heritage_arathi }
+			culture = { has_cultural_pillar = heritage_orcish }
+		}
+	}
+}
+human_war_01 = {
+	music = "file:/music/wc_music/WC1_Human_1.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		is_at_war = yes
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+		}
+		culture = { has_cultural_pillar = heritage_arathi }
+	}
+}
+human_war_02 = {
+	music = "file:/music/wc_music/WC1_Human_2.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		is_at_war = yes
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+		}
+		culture = { has_cultural_pillar = heritage_arathi }
+	}
+}
+human_war_03 = {
+	music = "file:/music/wc_music/WC1_Human_3.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		is_at_war = yes
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+		}
+		culture = { has_cultural_pillar = heritage_arathi }
+	}
+}
+human_mission_defeat = {
+	music = "file:/music/wc_music/WC1_Human_Mission_Defeat.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+		}
+		culture = { has_cultural_pillar = heritage_arathi }
+	}
+}
+human_mission_accomplished = {
+	music = "file:/music/wc_music/WC1_Human_Mission_Accomplished.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+		}
+		culture = { has_cultural_pillar = heritage_arathi }
+	}
+}
+human_victory = {
+	music = "file:/music/wc_music/WC1_Human_Victory.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:k_stormwind
+			liege = { has_title = title:k_stormwind }
+			has_title = title:e_azeroth
+			liege = { has_title = title:e_azeroth }
+		}
+		culture = { has_cultural_pillar = heritage_arathi }
+	}
+}
+orc_war_01 = {
+	music = "file:/music/wc_music/WC1_Orc_1.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		is_at_war = yes
+		OR = {
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		culture = { has_cultural_pillar = heritage_orcish }
+	}
+}
+orc_war_02 = {
+	music = "file:/music/wc_music/WC1_Orc_2.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		is_at_war = yes
+		OR = {
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		culture = { has_cultural_pillar = heritage_orcish }
+	}
+}
+orc_war_03 = {
+	music = "file:/music/wc_music/WC1_Orc_3.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		is_at_war = yes
+		OR = {
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		culture = { has_cultural_pillar = heritage_orcish }
+	}
+}
+orc_mission_defeat = {
+	music = "file:/music/wc_music/WC1_Orc_Mission_Defeat.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		culture = { has_cultural_pillar = heritage_orcish }
+	}
+}
+orc_mission_accomplished = {
+	music = "file:/music/wc_music/WC1_Orc_Mission_Accomplished.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		culture = { has_cultural_pillar = heritage_orcish }
+	}
+}
+orc_victory = {
+	music = "file:/music/wc_music/WC1_Orc_Victory.ogg"
+	pause_factor = 5
+	mood = yes
+	can_be_interrupted = yes
+	
+	is_prioritized_mood = yes
+	is_valid = {
+		OR = {
+			has_title = title:e_horde
+			liege = { has_title = title:e_horde }
+		}
+		culture = { has_cultural_pillar = heritage_orcish }
+	}
+}
 ### Zone Ambiance Tracks ###
 mood_elwynn_01 = {
 	music = "file:/music/wc_music/14_Elwynn Forest.ogg"
