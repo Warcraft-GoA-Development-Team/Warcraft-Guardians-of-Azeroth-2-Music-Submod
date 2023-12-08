@@ -400,7 +400,7 @@ alliance_war_01 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
-		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
+		joined_faction = { is_in_this_union_trigger = { faction = alliance } }
 	}
 }
 alliance_war_02 = {
@@ -412,7 +412,7 @@ alliance_war_02 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
-		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
+		joined_faction = { is_in_this_union_trigger = { faction = alliance } }
 	}
 }
 alliance_war_03 = {
@@ -424,7 +424,7 @@ alliance_war_03 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
-		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
+		joined_faction = { is_in_this_union_trigger = { faction = alliance } }
 	}
 }
 alliance_war_04 = {
@@ -436,7 +436,7 @@ alliance_war_04 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
-		joined_faction = { is_in_pol_faction_trigger = { faction = alliance } }
+		joined_faction = { is_in_this_union_trigger = { faction = alliance } }
 	}
 }
 horde_war_01 = {
@@ -448,7 +448,7 @@ horde_war_01 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
-		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
+		joined_faction = { is_in_this_union_trigger = { faction = horde } }
 	}
 }
 horde_war_02 = {
@@ -460,7 +460,7 @@ horde_war_02 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
-		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
+		joined_faction = { is_in_this_union_trigger = { faction = horde } }
 	}
 }
 horde_war_03 = {
@@ -472,7 +472,7 @@ horde_war_03 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
-		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
+		joined_faction = { is_in_this_union_trigger = { faction = horde } }
 	}
 }
 horde_war_04 = {
@@ -484,7 +484,7 @@ horde_war_04 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		is_at_war = yes
-		joined_faction = { is_in_pol_faction_trigger = { faction = horde } }
+		joined_faction = { is_in_this_union_trigger = { faction = horde } }
 	}
 }
 ### First War ###
