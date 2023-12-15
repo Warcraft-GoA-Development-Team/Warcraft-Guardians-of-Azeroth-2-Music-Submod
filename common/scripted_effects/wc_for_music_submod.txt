@@ -1,0 +1,159 @@
+﻿general_tracks_effect = {
+	random_list = {
+		1 = { play_music_cue = mood_wow_ost_01 }
+		1 = { play_music_cue = mood_wow_ost_02 }
+		1 = { play_music_cue = mood_wow_ost_03 }
+		1 = { play_music_cue = mood_wow_ost_04 }
+		1 = { play_music_cue = mood_wow_ost_05 }
+		1 = { play_music_cue = mood_wow_ost_06 }
+	}
+}
+
+for_music_submod_easy_replace_effect = {
+	##############################
+	####### Attacker music #######
+	##############################
+	if = {
+		limit = {
+			exists = scope:war # silence error when building description before war exists
+			scope:war = { using_holy_war_cb_trigger = yes } # going CB->war->is this war's CB a certain type->yes
+		}
+		scope:attacker = {
+			if = {
+				limit = {
+					OR = {
+						culture = { has_cultural_pillar = heritage_darnassian }
+						has_religion = religion:druidism_group
+					}
+				}
+				random_list = {
+					2 = { play_music_cue = mood_kaldorei_cultural_01 }
+					1 = { general_tracks_effect = yes }
+				}
+			}
+			else_if = {
+				limit = { has_faith = faith:illidari }
+				random_list = {
+					2 = { play_music_cue = mood_illidari_faith_01 }
+					1 = { general_tracks_effect = yes }
+				}
+			}
+			else_if = {
+				limit = {
+					has_religion = religion:light_group
+				}
+				random_list = {
+					2 = { play_music_cue = mood_sacred_01 }
+					1 = { general_tracks_effect = yes }
+				}
+			}
+			else = {
+				general_tracks_effect = yes
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			scope:attacker = {
+				has_variable = this_union
+				var:this_union = flag:alliance
+			}
+		}
+		scope:attacker = {
+			random_list = {
+				3 = {
+					random_list = {
+						1 = { play_music_cue = alliance_war_01 }
+						1 = { play_music_cue = alliance_war_02 }
+						1 = { play_music_cue = alliance_war_03 }
+						1 = { play_music_cue = alliance_war_04 }
+					}
+				}
+				1 = {
+					general_tracks_effect = yes
+				}
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			scope:attacker = {
+				has_variable = this_union
+				var:this_union = flag:horde
+			}
+		}
+		scope:attacker = {
+			random_list = {
+				3 = {
+					random_list = {
+						1 = { play_music_cue = horde_war_01 }
+						1 = { play_music_cue = horde_war_02 }
+						1 = { play_music_cue = horde_war_03 }
+						1 = { play_music_cue = horde_war_04 }
+					}
+				}
+				1 = {
+					general_tracks_effect = yes
+				}
+			}
+		}
+	}
+	else = {
+		scope:attacker = {
+			general_tracks_effect = yes
+		}
+	}
+
+	##############################
+	####### Defender music #######
+	##############################
+	if = {
+		limit = { exists = scope:war }
+		scope:defender = {
+			if = {
+				limit = {
+					has_variable = this_union
+					var:this_union = flag:alliance
+				}
+				random_list = {
+					3 = {
+						random_list = {
+							1 = { play_music_cue = alliance_war_01 }
+							1 = { play_music_cue = alliance_war_02 }
+							1 = { play_music_cue = alliance_war_03 }
+							1 = { play_music_cue = alliance_war_04 }
+						}
+					}
+					1 = {
+						general_tracks_effect = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_variable = this_union
+					var:this_union = flag:horde
+				}
+				random_list = {
+					3 = {
+						random_list = {
+							1 = { play_music_cue = horde_war_01 }
+							1 = { play_music_cue = horde_war_02 }
+							1 = { play_music_cue = horde_war_03 }
+							1 = { play_music_cue = horde_war_04 }
+						}
+					}
+					1 = {
+						general_tracks_effect = yes
+					}
+				}
+				
+			}
+			else = {
+				general_tracks_effect = yes
+			}
+		}
+	}
+}
