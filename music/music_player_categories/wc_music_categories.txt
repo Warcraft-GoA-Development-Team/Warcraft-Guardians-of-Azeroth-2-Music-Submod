@@ -1,0 +1,97 @@
+﻿
+#### Mood tracks from Warcraft games.
+
+category = {
+	id = "wc1_soundtrack"
+	name = "wc1_soundtrack_list"
+	tracks = {
+		"first_war_01"
+		"first_war_02"
+		"first_war_03"
+		"human_war_01"
+		"human_war_02"
+		"human_war_03"
+		"human_mission_defeat"
+		"human_mission_accomplished"
+		"human_victory"
+		"orc_war_01"
+		"orc_war_02"
+		"orc_war_03"
+		"orc_mission_defeat"
+		"orc_mission_accomplished"
+		"orc_victory"
+	}
+}
+category = {
+	id = "wc2_soundtrack"
+	name = "wc2_soundtrack_list"
+	tracks = {
+		"alliance_war_01"
+		"alliance_war_02"
+		"alliance_war_03"
+		"alliance_war_04"
+		"horde_war_01"
+		"horde_war_02"
+		"horde_war_03"
+		"horde_war_04"
+	}
+}
+category = {
+	id = "wc3_soundtrack"
+	name = "wc3_soundtrack_list"
+	tracks = {
+		"mood_kaldorei_cultural_03"
+		"mood_kaldorei_cultural_04"
+		"mood_human_cultural_02"
+		"mood_human_cultural_03"
+		"mood_orc_cultural_02"
+		"mood_orc_cultural_03"
+		"mood_undead_cultural_02"
+		"mood_undead_cultural_03"
+	}
+}
+category = {
+	id = "wow_soundtrack"
+	name = "wow_soundtrack_list"
+	tracks = {
+		"mood_wow_ost_01"
+		"mood_wow_ost_02"
+		"mood_wow_ost_03"
+		"mood_wow_ost_04"
+		"mood_wow_ost_05"
+		"mood_wow_ost_06"
+		"mood_kaldorei_cultural_01"
+		"mood_kaldorei_cultural_02"
+		"mood_human_cultural_01"
+		"mood_orc_cultural_01"
+		"mood_undead_cultural_01"
+		"mood_tauren_cultural_01"
+		"mood_dwarf_cultural_01"
+		"mood_dwarf_cultural_02"
+		"mood_draenei_cultural_01"
+		"mood_goblin_cultural_01"
+		"mood_troll_cultural_01"
+		"mood_troll_cultural_02"
+		"mood_troll_cultural_03"
+		"mood_sindorei_cultural_01"
+		"mood_pandaren_cultural_01"
+		"mood_nightborne_cultural_01"
+		"mood_naga_cultural_01"
+		"mood_illidari_faith_01"
+		"mood_sacred_01"
+		"mood_elwynn_01"
+		"mood_duskwood_01"
+		"mood_dun_morogh_01"
+		"mood_burning_steppes_01"
+		"mood_shimmering_flats_01"
+		"mood_felwood_01"
+		"mood_stranglethorn_01"
+		"mood_tanaris_01"
+		"mood_teldrassil_01"
+		"mood_tavern_01"
+		"mood_moonfall_01"
+		"mood_ruins_01"
+		"mood_temple_01"
+		"mood_lurking_01"
+	}
+}

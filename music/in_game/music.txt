@@ -754,7 +754,7 @@ orc_victory = {
 }
 ### Zone Ambiance Tracks ###
 mood_elwynn_01 = {
-	music = "file:/music/wc_music/14_Elwynn Forest.ogg"
+	music = "file:/music/wc_music/14_Elwynn_Forest.ogg"
 	pause_factor = 15
 	mood = yes
 	can_be_interrupted = yes
