@@ -40,7 +40,7 @@ for_music_submod_easy_replace_effect = {
 			}
 			else_if = {
 				limit = {
-					has_religion = religion:light_group
+					has_religion = religion:tyrism_religion
 				}
 				random_list = {
 					2 = { play_music_cue = mood_sacred_01 }
