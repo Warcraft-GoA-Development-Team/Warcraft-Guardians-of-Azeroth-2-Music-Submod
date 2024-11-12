@@ -387,7 +387,7 @@ mood_sacred_01 = {
 	
 	is_prioritized_mood = yes
 		is_valid = {
-		has_religion = religion:light_group
+		has_religion = religion:tyrism_religion
 	}
 }
 ### War Tracks ###
