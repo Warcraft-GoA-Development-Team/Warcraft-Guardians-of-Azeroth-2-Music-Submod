@@ -1,5 +1,5 @@
-name="Warcraft Guardians of Azeroth 2 Music Submod"
-version="2.1"
+name="Warcraft: Guardians of Azeroth Reforged Soundtrack"
+version="2.2"
 picture="thumbnail.png"
 tags={
 	"Sound"

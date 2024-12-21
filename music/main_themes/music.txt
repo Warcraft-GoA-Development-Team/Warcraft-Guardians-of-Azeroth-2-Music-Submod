@@ -1,5 +1,5 @@
 ﻿#### MAIN TRACKS
-main_theme_track = {
+main_theme_track_wc = {
 	music = "file:/music/wc_music/01_Legends_of_Azeroth.ogg"
 	can_be_interrupted = yes
 }
