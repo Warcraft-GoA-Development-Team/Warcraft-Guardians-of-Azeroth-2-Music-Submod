@@ -3,6 +3,7 @@
 mood_wow_ost_01 = {
 	music = "file:/music/wc_music/01_Legends_of_Azeroth.ogg"
 	pause_factor = 15
+	name = "mood_wow_ost_01"
 	mood = yes
 	can_be_interrupted = yes
 	
@@ -12,6 +13,7 @@ mood_wow_ost_02 = {
 	music = "file:/music/wc_music/02_The_Shaping_of_the_World.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_wow_ost_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -20,6 +22,7 @@ mood_wow_ost_03  = {
 	music = "file:/music/wc_music/03_Legacy.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_wow_ost_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -28,6 +31,7 @@ mood_wow_ost_04 = {
 	music = "file:/music/wc_music/05_Echoes_of_the_Past.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_wow_ost_04"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -36,6 +40,7 @@ mood_wow_ost_05 = {
 	music = "file:/music/wc_music/06_A_Call_to_Arms.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_wow_ost_05"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -44,6 +49,7 @@ mood_wow_ost_06 = {
 	music = "file:/music/wc_music/07_Seasons_of_War.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_wow_ost_06"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -53,6 +59,7 @@ mood_kaldorei_cultural_01 = {
 	music = "file:/music/wc_music/04_Song_of_Elune.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_kaldorei_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -67,6 +74,7 @@ mood_kaldorei_cultural_02 = {
 	music = "file:/music/wc_music/12_Darnassus.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_kaldorei_cultural_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -81,6 +89,7 @@ mood_kaldorei_cultural_03 = {
 	music = "file:/music/wc_music/WC3_Arrival_At_Kalimdor.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_kaldorei_cultural_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -95,6 +104,7 @@ mood_kaldorei_cultural_04 = {
 	music = "file:/music/wc_music/WC3_Return_of_the_Ancients.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_kaldorei_cultural_04"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -109,6 +119,7 @@ mood_human_cultural_01 = {
 	music = "file:/music/wc_music/08_Stormwind.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_human_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -120,6 +131,7 @@ mood_human_cultural_02 = {
 	music = "file:/music/wc_music/WC3_Blackrock_and_Roll.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_human_cultural_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -132,6 +144,7 @@ mood_human_cultural_03 = {
 	music = "file:/music/wc_music/WC3_Dark_Covenant.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_human_cultural_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -144,6 +157,7 @@ mood_orc_cultural_01 = {
 	music = "file:/music/wc_music/09_Orgrimmar.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_orc_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -153,6 +167,7 @@ mood_orc_cultural_02 = {
 	music = "file:/music/wc_music/WC3_Doomhammer_s_Legacy.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_orc_cultural_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -165,6 +180,7 @@ mood_orc_cultural_03 = {
 	music = "file:/music/wc_music/WC3_Temporary_Alliances.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_orc_cultural_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -177,6 +193,7 @@ mood_undead_cultural_01 = {
 	music = "file:/music/wc_music/10_The_Undercity.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_undead_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -188,6 +205,7 @@ mood_undead_cultural_02 = {
 	music = "file:/music/wc_music/WC3_Arcane_Echoes.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_undead_cultural_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -199,6 +217,7 @@ mood_undead_cultural_03 = {
 	music = "file:/music/wc_music/WC3_Blight.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_undead_cultural_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -210,6 +229,7 @@ mood_tauren_cultural_01 = {
 	music = "file:/music/wc_music/11_Thunder_Bluff.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_tauren_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -221,6 +241,7 @@ mood_dwarf_cultural_01 = {
 	music = "file:/music/wc_music/13_Ironforge.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_dwarf_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -238,6 +259,7 @@ mood_dwarf_cultural_02 = {
 	music = "file:/music/wc_music/Mosaic_Ironforge.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_dwarf_cultural_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -254,6 +276,7 @@ mood_draenei_cultural_01 = {
 	music = "file:/music/wc_music/TBC_Azuremyst_Isle.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_draenei_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -267,6 +290,7 @@ mood_goblin_cultural_01 = {
 	music = "file:/music/wc_music/Cata_Castaways.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_goblin_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -280,6 +304,7 @@ mood_troll_cultural_01 = {
 	music = "file:/music/wc_music/BFA_Zandalari_Lament.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_troll_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -293,6 +318,7 @@ mood_troll_cultural_02 = {
 	music = "file:/music/wc_music/BFA_Zuldazar_1.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_troll_cultural_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -306,6 +332,7 @@ mood_troll_cultural_03 = {
 	music = "file:/music/wc_music/BFA_Loa_Bwonsamdi.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_troll_cultural_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -319,6 +346,7 @@ mood_sindorei_cultural_01 = {
 	music = "file:/music/wc_music/TBC_The_City_of_Silvermoon.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_sindorei_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -332,6 +360,7 @@ mood_pandaren_cultural_01 = {
 	music = "file:/music/wc_music/MOP_The_Golden_Lotus.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_pandaren_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -345,6 +374,7 @@ mood_nightborne_cultural_01 = {
 	music = "file:/music/wc_music/Legion_The_Nightborne.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_nightborne_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -358,6 +388,7 @@ mood_naga_cultural_01 = {
 	music = "file:/music/wc_music/BFA_Nazjatar_Rise.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_naga_cultural_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -372,6 +403,7 @@ mood_illidari_faith_01 = {
 	music = "file:/music/wc_music/TBC_Illidan.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_illidari_faith_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -383,6 +415,7 @@ mood_sacred_01 = {
 	music = "file:/music/wc_music/28_Sacred.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_sacred_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -395,6 +428,7 @@ alliance_war_01 = {
 	music = "file:/music/wc_music/WC2_Human_01.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "alliance_war_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -407,6 +441,7 @@ alliance_war_02 = {
 	music = "file:/music/wc_music/WC2_Human_03.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "alliance_war_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -419,6 +454,7 @@ alliance_war_03 = {
 	music = "file:/music/wc_music/WC2_Human_04.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "alliance_war_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -431,6 +467,7 @@ alliance_war_04 = {
 	music = "file:/music/wc_music/WC2_Human_war_room.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "alliance_war_04"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -443,6 +480,7 @@ horde_war_01 = {
 	music = "file:/music/wc_music/WC2_Orc_01.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "horde_war_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -455,6 +493,7 @@ horde_war_02 = {
 	music = "file:/music/wc_music/WC2_Orc_02.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "horde_war_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -467,6 +506,7 @@ horde_war_03 = {
 	music = "file:/music/wc_music/WC2_Orc_03.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "horde_war_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -479,6 +519,7 @@ horde_war_04 = {
 	music = "file:/music/wc_music/WC2_Orc_war_room.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "horde_war_04"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -492,6 +533,7 @@ first_war_01 = {
 	music = "file:/music/wc_music/WC1_Orcs_n_Humans_Introduction.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "first_war_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -514,6 +556,7 @@ first_war_02 = {
 	music = "file:/music/wc_music/WC1_Orcs_n_Humans_Mission_Briefing.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "first_war_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -536,6 +579,7 @@ first_war_03 = {
 	music = "file:/music/wc_music/WC1_Orcs_n_Humans_Title.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "first_war_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -558,6 +602,7 @@ human_war_01 = {
 	music = "file:/music/wc_music/WC1_Human_1.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "human_war_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -576,6 +621,7 @@ human_war_02 = {
 	music = "file:/music/wc_music/WC1_Human_2.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "human_war_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -594,6 +640,7 @@ human_war_03 = {
 	music = "file:/music/wc_music/WC1_Human_3.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "human_war_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -612,6 +659,7 @@ human_mission_defeat = {
 	music = "file:/music/wc_music/WC1_Human_Mission_Defeat.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "human_mission_defeat"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -629,6 +677,7 @@ human_mission_accomplished = {
 	music = "file:/music/wc_music/WC1_Human_Mission_Accomplished.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "human_mission_accomplished"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -646,6 +695,7 @@ human_victory = {
 	music = "file:/music/wc_music/WC1_Human_Victory.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "human_victory"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -663,6 +713,7 @@ orc_war_01 = {
 	music = "file:/music/wc_music/WC1_Orc_1.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "orc_war_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -679,6 +730,7 @@ orc_war_02 = {
 	music = "file:/music/wc_music/WC1_Orc_2.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "orc_war_02"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -695,6 +747,7 @@ orc_war_03 = {
 	music = "file:/music/wc_music/WC1_Orc_3.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "orc_war_03"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -711,6 +764,7 @@ orc_mission_defeat = {
 	music = "file:/music/wc_music/WC1_Orc_Mission_Defeat.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "orc_mission_defeat"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -726,6 +780,7 @@ orc_mission_accomplished = {
 	music = "file:/music/wc_music/WC1_Orc_Mission_Accomplished.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "orc_mission_accomplished"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -741,6 +796,7 @@ orc_victory = {
 	music = "file:/music/wc_music/WC1_Orc_Victory.ogg"
 	pause_factor = 5
 	mood = yes
+	name = "orc_victory"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -757,6 +813,7 @@ mood_elwynn_01 = {
 	music = "file:/music/wc_music/14_Elwynn_Forest.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_elwynn_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -765,6 +822,7 @@ mood_duskwood_01 = {
 	music = "file:/music/wc_music/15_Duskwood.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_duskwood_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -773,6 +831,7 @@ mood_dun_morogh_01 = {
 	music = "file:/music/wc_music/16_Dun_Morogh.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_dun_morogh_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -781,6 +840,7 @@ mood_burning_steppes_01 = {
 	music = "file:/music/wc_music/17_Burning_Steppes.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_burning_steppes_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -789,6 +849,7 @@ mood_shimmering_flats_01 = {
 	music = "file:/music/wc_music/18_Shimmering_Flats.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_shimmering_flats_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -797,6 +858,7 @@ mood_felwood_01 = {
 	music = "file:/music/wc_music/19_Felwood.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_felwood_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -805,6 +867,7 @@ mood_stranglethorn_01 = {
 	music = "file:/music/wc_music/20_Stranglethorn_Vale.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_stranglethorn_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -813,6 +876,7 @@ mood_tanaris_01 = {
 	music = "file:/music/wc_music/21_Tanaris.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_tanaris_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -821,6 +885,7 @@ mood_teldrassil_01 = {
 	music = "file:/music/wc_music/22_Teldrassil.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_teldrassil_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -829,6 +894,7 @@ mood_tavern_01 = {
 	music = "file:/music/wc_music/23_Tavern.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_tavern_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -837,6 +903,7 @@ mood_moonfall_01  = {
 	music = "file:/music/wc_music/24_Moonfall.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_moonfall_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -845,6 +912,7 @@ mood_ruins_01 = {
 	music = "file:/music/wc_music/25_Ruins.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_ruins_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -853,6 +921,7 @@ mood_temple_01 = {
 	music = "file:/music/wc_music/26_Temple.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_temple_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
@@ -861,6 +930,7 @@ mood_lurking_01 = {
 	music = "file:/music/wc_music/27_Lurking.ogg"
 	pause_factor = 15
 	mood = yes
+	name = "mood_lurking_01"
 	can_be_interrupted = yes
 	
 	is_prioritized_mood = yes
