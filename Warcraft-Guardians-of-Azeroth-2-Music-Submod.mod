@@ -4,5 +4,5 @@ picture="thumbnail.png"
 tags={
 	"Sound"
 }
-supported_version="1.16.*"
+supported_version="1.17.*"
 path="mod/Warcraft-Guardians-of-Azeroth-2-Music-Submod"
