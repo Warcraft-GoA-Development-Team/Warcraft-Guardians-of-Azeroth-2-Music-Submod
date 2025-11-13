@@ -3,4 +3,4 @@ tags={
 	"Sound"
 }
 name="Warcraft Guardians of Azeroth 2 Music Submod"
-supported_version="1.17.*"
+supported_version="1.18.*"
