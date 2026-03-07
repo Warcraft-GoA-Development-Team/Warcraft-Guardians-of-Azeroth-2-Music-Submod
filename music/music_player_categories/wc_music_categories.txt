@@ -40,6 +40,7 @@ category = {
 	id = "wc3_soundtrack"
 	name = "wc3_soundtrack_list"
 	tracks = {
+		"mood_wc3_main_menu"
 		"mood_kaldorei_cultural_03"
 		"mood_kaldorei_cultural_04"
 		"mood_human_cultural_02"

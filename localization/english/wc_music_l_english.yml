@@ -28,6 +28,7 @@ horde_war_03: "Orc 03"
 horde_war_04: "Orc war room"
 ########## WC3
 wc3_soundtrack_list: "Warcraft 3"
+mood_wc3_main_menu: "Warcraft 3 Main Menu"
 mood_kaldorei_cultural_03: "Arrival At Kalimdor"
 mood_kaldorei_cultural_04: "Return of the Ancients"
 mood_human_cultural_02: "Blackrock and Roll"

@@ -935,3 +935,12 @@ mood_lurking_01 = {
 	
 	is_prioritized_mood = yes
 }
+mood_wc3_main_menu = {
+	music = "file:/music/wc_music/WC3_ROC_main_menu.ogg"
+	pause_factor = 15
+	mood = yes
+	name = "mood_wc3_main_menu"
+	can_be_interrupted = yes
+
+	is_prioritized_mood = yes
+}
