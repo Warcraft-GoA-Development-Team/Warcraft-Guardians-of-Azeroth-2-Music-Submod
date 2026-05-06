@@ -324,7 +324,7 @@ mood_troll_cultural_02 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		culture = {
-			has_cultural_pillar = heritage_zulite
+			has_cultural_pillar = heritage_zulian
 		}
 	}
 }
@@ -338,7 +338,7 @@ mood_troll_cultural_03 = {
 	is_prioritized_mood = yes
 	is_valid = {
 		culture = {
-			has_cultural_pillar = heritage_zulite
+			has_cultural_pillar = heritage_zulian
 		}
 	}
 }
