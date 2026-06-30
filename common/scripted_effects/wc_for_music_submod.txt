@@ -32,7 +32,7 @@ for_music_submod_easy_replace_effect = {
 				}
 			}
 			else_if = {
-				limit = { has_faith = faith:illidari }
+				limit = { has_faith = faith:vindicatory }
 				random_list = {
 					2 = { play_music_cue = mood_illidari_faith_01 }
 					1 = { general_tracks_effect = yes }
