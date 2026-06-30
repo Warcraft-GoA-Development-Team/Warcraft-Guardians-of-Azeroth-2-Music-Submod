@@ -408,7 +408,7 @@ mood_illidari_faith_01 = {
 	
 	is_prioritized_mood = yes
 	is_valid = {
-		has_faith = faith:illidari
+		has_faith = faith:vindicatory
 	}
 }
 mood_sacred_01 = {
